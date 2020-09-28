@@ -1,0 +1,8 @@
+option batch abort
+option confirm off
+ 
+open sftp://lim9:kangsun710@qso.snu.ac.kr
+
+synchronize remote -mirror "D:\_obsdata\" \data3\IMSNG\KCT\obsdata
+ 
+exit
